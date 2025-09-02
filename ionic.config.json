@@ -1,0 +1,7 @@
+{
+  "name": "Giphy Apk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
