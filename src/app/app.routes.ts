@@ -10,4 +10,8 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'giphy-details',
+    loadComponent: () => import('./giphy-details/giphy-details.page').then( m => m.GiphyDetailsPage)
+  },
 ];
